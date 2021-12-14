@@ -1,0 +1,783 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2262D654E23D28B51BA1BF4C /* Pods_Matta5_Matta5UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 817CED718A59351850B62757 /* Pods_Matta5_Matta5UITests.framework */; };
+		72ACF57825ACED9C009AB4B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72ACF57725ACED9C009AB4B7 /* AppDelegate.swift */; };
+		72ACF57A25ACED9C009AB4B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72ACF57925ACED9C009AB4B7 /* SceneDelegate.swift */; };
+		72ACF57C25ACED9C009AB4B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72ACF57B25ACED9C009AB4B7 /* ViewController.swift */; };
+		72ACF57F25ACED9C009AB4B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72ACF57D25ACED9C009AB4B7 /* Main.storyboard */; };
+		72ACF58125ACEDA3009AB4B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72ACF58025ACEDA3009AB4B7 /* Assets.xcassets */; };
+		72ACF58425ACEDA3009AB4B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72ACF58225ACEDA3009AB4B7 /* LaunchScreen.storyboard */; };
+		72ACF58F25ACEDA4009AB4B7 /* Matta5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72ACF58E25ACEDA4009AB4B7 /* Matta5Tests.swift */; };
+		72ACF59A25ACEDA4009AB4B7 /* Matta5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72ACF59925ACEDA4009AB4B7 /* Matta5UITests.swift */; };
+		72ACF5AF25ACF518009AB4B7 /* SwiftMQTT in Frameworks */ = {isa = PBXBuildFile; productRef = 72ACF5AE25ACF518009AB4B7 /* SwiftMQTT */; };
+		72ACF5C925AF8B1B009AB4B7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72ACF5C825AF8B1B009AB4B7 /* Constants.swift */; };
+		8A04DC6FF3B1822067E74100 /* Pods_Matta5.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE4B7CD75B27FFCA3B1C456C /* Pods_Matta5.framework */; };
+		FF72D0BDA2A95F48199FBB86 /* Pods_Matta5Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3218414F1E56578977FB0B5 /* Pods_Matta5Tests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72ACF58B25ACEDA4009AB4B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72ACF56C25ACED9C009AB4B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72ACF57325ACED9C009AB4B7;
+			remoteInfo = Matta5;
+		};
+		72ACF59625ACEDA4009AB4B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72ACF56C25ACED9C009AB4B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72ACF57325ACED9C009AB4B7;
+			remoteInfo = Matta5;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D5C0D156788F0399E25FF73 /* Pods-Matta5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Matta5.release.xcconfig"; path = "Target Support Files/Pods-Matta5/Pods-Matta5.release.xcconfig"; sourceTree = "<group>"; };
+		235DDB5F2C8B1CB66B0E80F6 /* Pods-Matta5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Matta5.debug.xcconfig"; path = "Target Support Files/Pods-Matta5/Pods-Matta5.debug.xcconfig"; sourceTree = "<group>"; };
+		3655A15B91795A41B7B20DF9 /* Pods-Matta5-Matta5UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Matta5-Matta5UITests.release.xcconfig"; path = "Target Support Files/Pods-Matta5-Matta5UITests/Pods-Matta5-Matta5UITests.release.xcconfig"; sourceTree = "<group>"; };
+		72ACF57425ACED9C009AB4B7 /* Matta5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matta5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72ACF57725ACED9C009AB4B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		72ACF57925ACED9C009AB4B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		72ACF57B25ACED9C009AB4B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		72ACF57E25ACED9C009AB4B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72ACF58025ACEDA3009AB4B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72ACF58325ACEDA3009AB4B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72ACF58525ACEDA3009AB4B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72ACF58A25ACEDA4009AB4B7 /* Matta5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Matta5Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72ACF58E25ACEDA4009AB4B7 /* Matta5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matta5Tests.swift; sourceTree = "<group>"; };
+		72ACF59025ACEDA4009AB4B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72ACF59525ACEDA4009AB4B7 /* Matta5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Matta5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72ACF59925ACEDA4009AB4B7 /* Matta5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matta5UITests.swift; sourceTree = "<group>"; };
+		72ACF59B25ACEDA4009AB4B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72ACF5C825AF8B1B009AB4B7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		78B7B6DCDCB8BF786ACF2B5C /* Pods-Matta5-Matta5UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Matta5-Matta5UITests.debug.xcconfig"; path = "Target Support Files/Pods-Matta5-Matta5UITests/Pods-Matta5-Matta5UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		817CED718A59351850B62757 /* Pods_Matta5_Matta5UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Matta5_Matta5UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83352EFE3921F3BB25FE314F /* Pods-Matta5Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Matta5Tests.debug.xcconfig"; path = "Target Support Files/Pods-Matta5Tests/Pods-Matta5Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A2836FCE222D82C2C16D7C6C /* Pods-Matta5Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Matta5Tests.release.xcconfig"; path = "Target Support Files/Pods-Matta5Tests/Pods-Matta5Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D3218414F1E56578977FB0B5 /* Pods_Matta5Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Matta5Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE4B7CD75B27FFCA3B1C456C /* Pods_Matta5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Matta5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72ACF57125ACED9C009AB4B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72ACF5AF25ACF518009AB4B7 /* SwiftMQTT in Frameworks */,
+				8A04DC6FF3B1822067E74100 /* Pods_Matta5.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72ACF58725ACEDA4009AB4B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF72D0BDA2A95F48199FBB86 /* Pods_Matta5Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72ACF59225ACEDA4009AB4B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2262D654E23D28B51BA1BF4C /* Pods_Matta5_Matta5UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28779AE6D9454A145949F504 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE4B7CD75B27FFCA3B1C456C /* Pods_Matta5.framework */,
+				817CED718A59351850B62757 /* Pods_Matta5_Matta5UITests.framework */,
+				D3218414F1E56578977FB0B5 /* Pods_Matta5Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72ACF56B25ACED9C009AB4B7 = {
+			isa = PBXGroup;
+			children = (
+				72ACF57625ACED9C009AB4B7 /* Matta5 */,
+				72ACF58D25ACEDA4009AB4B7 /* Matta5Tests */,
+				72ACF59825ACEDA4009AB4B7 /* Matta5UITests */,
+				72ACF57525ACED9C009AB4B7 /* Products */,
+				9DF81605A39B5F8CC768FA8E /* Pods */,
+				28779AE6D9454A145949F504 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		72ACF57525ACED9C009AB4B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72ACF57425ACED9C009AB4B7 /* Matta5.app */,
+				72ACF58A25ACEDA4009AB4B7 /* Matta5Tests.xctest */,
+				72ACF59525ACEDA4009AB4B7 /* Matta5UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72ACF57625ACED9C009AB4B7 /* Matta5 */ = {
+			isa = PBXGroup;
+			children = (
+				72ACF57725ACED9C009AB4B7 /* AppDelegate.swift */,
+				72ACF57925ACED9C009AB4B7 /* SceneDelegate.swift */,
+				72ACF57B25ACED9C009AB4B7 /* ViewController.swift */,
+				72ACF5C825AF8B1B009AB4B7 /* Constants.swift */,
+				72ACF57D25ACED9C009AB4B7 /* Main.storyboard */,
+				72ACF58025ACEDA3009AB4B7 /* Assets.xcassets */,
+				72ACF58225ACEDA3009AB4B7 /* LaunchScreen.storyboard */,
+				72ACF58525ACEDA3009AB4B7 /* Info.plist */,
+			);
+			path = Matta5;
+			sourceTree = "<group>";
+		};
+		72ACF58D25ACEDA4009AB4B7 /* Matta5Tests */ = {
+			isa = PBXGroup;
+			children = (
+				72ACF58E25ACEDA4009AB4B7 /* Matta5Tests.swift */,
+				72ACF59025ACEDA4009AB4B7 /* Info.plist */,
+			);
+			path = Matta5Tests;
+			sourceTree = "<group>";
+		};
+		72ACF59825ACEDA4009AB4B7 /* Matta5UITests */ = {
+			isa = PBXGroup;
+			children = (
+				72ACF59925ACEDA4009AB4B7 /* Matta5UITests.swift */,
+				72ACF59B25ACEDA4009AB4B7 /* Info.plist */,
+			);
+			path = Matta5UITests;
+			sourceTree = "<group>";
+		};
+		9DF81605A39B5F8CC768FA8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				235DDB5F2C8B1CB66B0E80F6 /* Pods-Matta5.debug.xcconfig */,
+				1D5C0D156788F0399E25FF73 /* Pods-Matta5.release.xcconfig */,
+				78B7B6DCDCB8BF786ACF2B5C /* Pods-Matta5-Matta5UITests.debug.xcconfig */,
+				3655A15B91795A41B7B20DF9 /* Pods-Matta5-Matta5UITests.release.xcconfig */,
+				83352EFE3921F3BB25FE314F /* Pods-Matta5Tests.debug.xcconfig */,
+				A2836FCE222D82C2C16D7C6C /* Pods-Matta5Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72ACF57325ACED9C009AB4B7 /* Matta5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72ACF59E25ACEDA4009AB4B7 /* Build configuration list for PBXNativeTarget "Matta5" */;
+			buildPhases = (
+				6FC3F03EB448F61D0E51F7FB /* [CP] Check Pods Manifest.lock */,
+				72ACF57025ACED9C009AB4B7 /* Sources */,
+				72ACF57125ACED9C009AB4B7 /* Frameworks */,
+				72ACF57225ACED9C009AB4B7 /* Resources */,
+				BE35634835FDB7ED6379B67D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Matta5;
+			packageProductDependencies = (
+				72ACF5AE25ACF518009AB4B7 /* SwiftMQTT */,
+			);
+			productName = Matta5;
+			productReference = 72ACF57425ACED9C009AB4B7 /* Matta5.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72ACF58925ACEDA4009AB4B7 /* Matta5Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72ACF5A125ACEDA4009AB4B7 /* Build configuration list for PBXNativeTarget "Matta5Tests" */;
+			buildPhases = (
+				9464B728177B135840928BA5 /* [CP] Check Pods Manifest.lock */,
+				72ACF58625ACEDA4009AB4B7 /* Sources */,
+				72ACF58725ACEDA4009AB4B7 /* Frameworks */,
+				72ACF58825ACEDA4009AB4B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72ACF58C25ACEDA4009AB4B7 /* PBXTargetDependency */,
+			);
+			name = Matta5Tests;
+			productName = Matta5Tests;
+			productReference = 72ACF58A25ACEDA4009AB4B7 /* Matta5Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		72ACF59425ACEDA4009AB4B7 /* Matta5UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72ACF5A425ACEDA4009AB4B7 /* Build configuration list for PBXNativeTarget "Matta5UITests" */;
+			buildPhases = (
+				15CC0161DF9EE903891285EC /* [CP] Check Pods Manifest.lock */,
+				72ACF59125ACEDA4009AB4B7 /* Sources */,
+				72ACF59225ACEDA4009AB4B7 /* Frameworks */,
+				72ACF59325ACEDA4009AB4B7 /* Resources */,
+				4511C4DFB843B49FB9FF9F14 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72ACF59725ACEDA4009AB4B7 /* PBXTargetDependency */,
+			);
+			name = Matta5UITests;
+			productName = Matta5UITests;
+			productReference = 72ACF59525ACEDA4009AB4B7 /* Matta5UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72ACF56C25ACED9C009AB4B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					72ACF57325ACED9C009AB4B7 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					72ACF58925ACEDA4009AB4B7 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 72ACF57325ACED9C009AB4B7;
+					};
+					72ACF59425ACEDA4009AB4B7 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 72ACF57325ACED9C009AB4B7;
+					};
+				};
+			};
+			buildConfigurationList = 72ACF56F25ACED9C009AB4B7 /* Build configuration list for PBXProject "Matta5" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72ACF56B25ACED9C009AB4B7;
+			packageReferences = (
+				72ACF5AD25ACF518009AB4B7 /* XCRemoteSwiftPackageReference "SwiftMQTT" */,
+			);
+			productRefGroup = 72ACF57525ACED9C009AB4B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72ACF57325ACED9C009AB4B7 /* Matta5 */,
+				72ACF58925ACEDA4009AB4B7 /* Matta5Tests */,
+				72ACF59425ACEDA4009AB4B7 /* Matta5UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72ACF57225ACED9C009AB4B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72ACF58425ACEDA3009AB4B7 /* LaunchScreen.storyboard in Resources */,
+				72ACF58125ACEDA3009AB4B7 /* Assets.xcassets in Resources */,
+				72ACF57F25ACED9C009AB4B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72ACF58825ACEDA4009AB4B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72ACF59325ACEDA4009AB4B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15CC0161DF9EE903891285EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Matta5-Matta5UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4511C4DFB843B49FB9FF9F14 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Matta5-Matta5UITests/Pods-Matta5-Matta5UITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Matta5-Matta5UITests/Pods-Matta5-Matta5UITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Matta5-Matta5UITests/Pods-Matta5-Matta5UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FC3F03EB448F61D0E51F7FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Matta5-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9464B728177B135840928BA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Matta5Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE35634835FDB7ED6379B67D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Matta5/Pods-Matta5-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Matta5/Pods-Matta5-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Matta5/Pods-Matta5-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72ACF57025ACED9C009AB4B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72ACF57C25ACED9C009AB4B7 /* ViewController.swift in Sources */,
+				72ACF57825ACED9C009AB4B7 /* AppDelegate.swift in Sources */,
+				72ACF57A25ACED9C009AB4B7 /* SceneDelegate.swift in Sources */,
+				72ACF5C925AF8B1B009AB4B7 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72ACF58625ACEDA4009AB4B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72ACF58F25ACEDA4009AB4B7 /* Matta5Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72ACF59125ACEDA4009AB4B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72ACF59A25ACEDA4009AB4B7 /* Matta5UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72ACF58C25ACEDA4009AB4B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72ACF57325ACED9C009AB4B7 /* Matta5 */;
+			targetProxy = 72ACF58B25ACEDA4009AB4B7 /* PBXContainerItemProxy */;
+		};
+		72ACF59725ACEDA4009AB4B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72ACF57325ACED9C009AB4B7 /* Matta5 */;
+			targetProxy = 72ACF59625ACEDA4009AB4B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72ACF57D25ACED9C009AB4B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72ACF57E25ACED9C009AB4B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72ACF58225ACEDA3009AB4B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72ACF58325ACEDA3009AB4B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72ACF59C25ACEDA4009AB4B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72ACF59D25ACEDA4009AB4B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72ACF59F25ACEDA4009AB4B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 235DDB5F2C8B1CB66B0E80F6 /* Pods-Matta5.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KA84XTSGKM;
+				INFOPLIST_FILE = Matta5/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.proto.Matta5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72ACF5A025ACEDA4009AB4B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D5C0D156788F0399E25FF73 /* Pods-Matta5.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KA84XTSGKM;
+				INFOPLIST_FILE = Matta5/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.proto.Matta5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		72ACF5A225ACEDA4009AB4B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83352EFE3921F3BB25FE314F /* Pods-Matta5Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KA84XTSGKM;
+				INFOPLIST_FILE = Matta5Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.proto.Matta5Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Matta5.app/Matta5";
+			};
+			name = Debug;
+		};
+		72ACF5A325ACEDA4009AB4B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2836FCE222D82C2C16D7C6C /* Pods-Matta5Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KA84XTSGKM;
+				INFOPLIST_FILE = Matta5Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.proto.Matta5Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Matta5.app/Matta5";
+			};
+			name = Release;
+		};
+		72ACF5A525ACEDA4009AB4B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78B7B6DCDCB8BF786ACF2B5C /* Pods-Matta5-Matta5UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KA84XTSGKM;
+				INFOPLIST_FILE = Matta5UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.proto.Matta5UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Matta5;
+			};
+			name = Debug;
+		};
+		72ACF5A625ACEDA4009AB4B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3655A15B91795A41B7B20DF9 /* Pods-Matta5-Matta5UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KA84XTSGKM;
+				INFOPLIST_FILE = Matta5UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.proto.Matta5UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Matta5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72ACF56F25ACED9C009AB4B7 /* Build configuration list for PBXProject "Matta5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72ACF59C25ACEDA4009AB4B7 /* Debug */,
+				72ACF59D25ACEDA4009AB4B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72ACF59E25ACEDA4009AB4B7 /* Build configuration list for PBXNativeTarget "Matta5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72ACF59F25ACEDA4009AB4B7 /* Debug */,
+				72ACF5A025ACEDA4009AB4B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72ACF5A125ACEDA4009AB4B7 /* Build configuration list for PBXNativeTarget "Matta5Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72ACF5A225ACEDA4009AB4B7 /* Debug */,
+				72ACF5A325ACEDA4009AB4B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72ACF5A425ACEDA4009AB4B7 /* Build configuration list for PBXNativeTarget "Matta5UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72ACF5A525ACEDA4009AB4B7 /* Debug */,
+				72ACF5A625ACEDA4009AB4B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		72ACF5AD25ACF518009AB4B7 /* XCRemoteSwiftPackageReference "SwiftMQTT" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aciidb0mb3r/SwiftMQTT.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		72ACF5AE25ACF518009AB4B7 /* SwiftMQTT */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 72ACF5AD25ACF518009AB4B7 /* XCRemoteSwiftPackageReference "SwiftMQTT" */;
+			productName = SwiftMQTT;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 72ACF56C25ACED9C009AB4B7 /* Project object */;
+}

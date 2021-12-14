@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title><%= title %></title>
+    <!--  -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXlFZW_uf37fbWIWx2wvGOjGxuaY4g93Y&callback=initMap&libraries=&v=weekly" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Get initial geolocation co-ordinates -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        var startPath = <%- JSON.stringify(startCoordinate) %>;
+        var endPath = <%- JSON.stringify(endCoordinate) %>;
+        var meetId = <%- JSON.stringify(meetId) %>;
+        console.log("start > ", startPath);
+        console.log("end > ", endPath);
+        console.log("meet id > ", meetId);
+    </script>
+    <script src="/js/index.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    </head>
+    <body>
+        <div id="map"></div>
+    </body>
+</html>
